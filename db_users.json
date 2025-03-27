@@ -1,8 +1,14 @@
 {
-    "admin": {
-        "password": "123",
-        "email": "user@example.com",
-        "status": 1,
-        "created_at": "2023-01-01 12:00:00"
-    }
+  "admin": {
+    "password": "123",
+    "email": "user@example.com",
+    "status": 1,
+    "created_at": "2023-01-01 12:00:00"
+  },
+  "Vu4eke": {
+    "password": "123",
+    "email": "zeniskyy@gmail.com",
+    "status": 0,
+    "created_at": "2025-03-27 21:53:17"
+  }
 }
