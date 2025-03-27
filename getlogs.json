@@ -9,7 +9,7 @@
         }
     },
     {
-        "timestamp": "2023-10-18 14:30:45",
+        "timestamp": "2023-10-18T14:30:45Z",
         "level": "WARNING",
         "message": "Медленный отклик от API",
         "details": {
@@ -24,9 +24,1073 @@
         "details": "Connection timeout after 10 seconds"
     },
     {
-        "timestamp": 1634567999,
+        "timestamp": 1634568005,
         "level": "DEBUG",
-        "message": "Загружен .env файл",
-        "details": "Has been get (code 91)"
+        "message": "Загружен конфигурационный файл",
+        "details": "config.json parsed successfully"
+    },
+    {
+        "timestamp": "2023-10-18T14:32:10Z",
+        "level": "INFO",
+        "message": "Пользователь вошел в систему",
+        "details": {
+            "user_id": 12345,
+            "username": "ivanov"
+        }
+    },
+    {
+        "timestamp": 1634568132,
+        "level": "ERROR",
+        "message": "Файл не найден",
+        "details": {
+            "path": "/var/www/uploads/image.jpg",
+            "error": "FileNotFound"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T14:35:22Z",
+        "level": "INFO",
+        "message": "Отправлено email-уведомление",
+        "details": {
+            "recipient": "user@example.com",
+            "template": "welcome_email"
+        }
+    },
+    {
+        "timestamp": 1634568233,
+        "level": "WARNING",
+        "message": "Использование памяти приближается к лимиту",
+        "details": {
+            "memory_used": "1.8GB",
+            "memory_limit": "2GB"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T14:38:15Z",
+        "level": "DEBUG",
+        "message": "SQL запрос выполнен",
+        "details": {
+            "query": "SELECT * FROM users WHERE id = ?",
+            "parameters": [12345],
+            "duration": "0.045s"
+        }
+    },
+    {
+        "timestamp": 1634568300,
+        "level": "INFO",
+        "message": "Резервное копирование завершено",
+        "details": {
+            "size": "4.7GB",
+            "duration": "12m 34s"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T14:45:30Z",
+        "level": "ERROR",
+        "message": "Ошибка валидации данных",
+        "details": {
+            "field": "email",
+            "error": "Invalid format",
+            "value": "user@.com"
+        }
+    },
+    {
+        "timestamp": 1634568400,
+        "level": "INFO",
+        "message": "Запуск задачи по расписанию",
+        "details": {
+            "task_id": "cleanup_temp_files",
+            "next_run": "2023-10-18T15:00:00Z"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T14:50:12Z",
+        "level": "WARNING",
+        "message": "Повторная попытка подключения",
+        "details": {
+            "service": "Redis",
+            "attempt": 3,
+            "max_attempts": 5
+        }
+    },
+    {
+        "timestamp": 1634568515,
+        "level": "DEBUG",
+        "message": "Кэш обновлен",
+        "details": {
+            "key": "user:12345:profile",
+            "action": "update"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T14:55:00Z",
+        "level": "INFO",
+        "message": "Завершение работы приложения",
+        "details": {
+            "uptime": "2h 15m",
+            "reason": "SIGTERM received"
+        }
+    },
+    {
+        "timestamp": 1634568600,
+        "level": "ERROR",
+        "message": "Не удалось сохранить данные",
+        "details": {
+            "operation": "user_update",
+            "error": "Database constraint violation"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T15:01:45Z",
+        "level": "INFO",
+        "message": "Новый пользователь зарегистрирован",
+        "details": {
+            "user_id": 67890,
+            "email": "newuser@example.com",
+            "method": "oauth_google"
+        }
+    },
+    {
+        "timestamp": 1634568700,
+        "level": "WARNING",
+        "message": "Устаревший API-ключ",
+        "details": {
+            "service": "payment_gateway",
+            "key_id": "pg_123",
+            "expired_at": "2023-09-30"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T15:10:30Z",
+        "level": "DEBUG",
+        "message": "HTTP запрос",
+        "details": {
+            "method": "POST",
+            "path": "/api/orders",
+            "status": 201,
+            "duration": "0.23s"
+        }
+    },
+    {
+        "timestamp": 1634568800,
+        "level": "INFO",
+        "message": "Обновление системы начато",
+        "details": {
+            "from_version": "1.2.3",
+            "to_version": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T15:15:22Z",
+        "level": "ERROR",
+        "message": "Ошибка при обработке платежа",
+        "details": {
+            "transaction_id": "txn_789",
+            "error": "Insufficient funds",
+            "amount": 150.00
+        }
+    },
+    {
+        "timestamp": 1634568900,
+        "level": "INFO",
+        "message": "Фоновый процесс завершен",
+        "details": {
+            "process_id": "image_processing_456",
+            "status": "success",
+            "processed_items": 24
+        }
+    },
+    {
+        "timestamp": "2023-10-18T15:20:10Z",
+        "level": "WARNING",
+        "message": "Необычная активность",
+        "details": {
+            "ip": "192.168.1.100",
+            "event": "multiple_failed_logins",
+            "count": 7
+        }
+    },
+    {
+        "timestamp": 1634569000,
+        "level": "DEBUG",
+        "message": "Запрос к внешнему сервису",
+        "details": {
+            "service": "geolocation",
+            "query": "Paris, France",
+            "response_size": "1.2KB"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T15:25:45Z",
+        "level": "INFO",
+        "message": "Данные синхронизированы",
+        "details": {
+            "source": "mobile_app",
+            "records_processed": 142
+        }
+    },
+    {
+        "timestamp": 1634569100,
+        "level": "ERROR",
+        "message": "Сервис недоступен",
+        "details": {
+            "service": "SMTP",
+            "error": "Connection refused",
+            "retry_in": "5m"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T15:30:30Z",
+        "level": "INFO",
+        "message": "Загрузка файла завершена",
+        "details": {
+            "filename": "report_2023_Q3.pdf",
+            "size": "4.5MB",
+            "destination": "S3://reports/"
+        }
+    },
+    {
+        "timestamp": 1634569200,
+        "level": "WARNING",
+        "message": "Конфигурация по умолчанию",
+        "details": "Using fallback configuration values"
+    },
+    {
+        "timestamp": "2023-10-18T15:35:15Z",
+        "level": "DEBUG",
+        "message": "Состояние очереди",
+        "details": {
+            "queue_name": "email_notifications",
+            "pending_messages": 12
+        }
+    },
+    {
+        "timestamp": 1634569300,
+        "level": "INFO",
+        "message": "Пользователь вышел из системы",
+        "details": {
+            "user_id": 12345,
+            "session_duration": "45m"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T15:40:00Z",
+        "level": "ERROR",
+        "message": "Ошибка десериализации JSON",
+        "details": {
+            "source": "webhook_stripe",
+            "error": "Unexpected token"
+        }
+    },
+    {
+        "timestamp": 1634569400,
+        "level": "INFO",
+        "message": "Обновление зависимостей",
+        "details": {
+            "packages_updated": 5,
+            "security_updates": 2
+        }
+    },
+    {
+        "timestamp": "2023-10-18T15:45:22Z",
+        "level": "WARNING",
+        "message": "Дублирующаяся запись",
+        "details": {
+            "table": "users",
+            "field": "email",
+            "value": "duplicate@example.com"
+        }
+    },
+    {
+        "timestamp": 1634569500,
+        "level": "DEBUG",
+        "message": "Проверка состояния",
+        "details": {
+            "component": "database",
+            "status": "healthy",
+            "latency": "12ms"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T15:50:10Z",
+        "level": "INFO",
+        "message": "Отчет сгенерирован",
+        "details": {
+            "report_type": "daily_sales",
+            "period": "2023-10-17"
+        }
+    },
+    {
+        "timestamp": 1634569600,
+        "level": "ERROR",
+        "message": "Ошибка разрешения DNS",
+        "details": {
+            "hostname": "api.external-service.com",
+            "error": "NXDOMAIN"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T15:55:30Z",
+        "level": "INFO",
+        "message": "Кэш очищен",
+        "details": {
+            "type": "user_sessions",
+            "entries_removed": 143
+        }
+    },
+    {
+        "timestamp": 1634569700,
+        "level": "WARNING",
+        "message": "Длинная транзакция",
+        "details": {
+            "transaction_id": "tx_678",
+            "duration": "5.7s",
+            "threshold": "3s"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:00:45Z",
+        "level": "DEBUG",
+        "message": "Проверка прав доступа",
+        "details": {
+            "user_id": 12345,
+            "resource": "/admin/dashboard",
+            "granted": false
+        }
+    },
+    {
+        "timestamp": 1634569800,
+        "level": "INFO",
+        "message": "Импорт данных начат",
+        "details": {
+            "source": "legacy_system",
+            "records_total": 1250
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:05:15Z",
+        "level": "ERROR",
+        "message": "Ошибка SSL сертификата",
+        "details": {
+            "host": "secure.example.com",
+            "error": "Certificate expired"
+        }
+    },
+    {
+        "timestamp": 1634569900,
+        "level": "INFO",
+        "message": "Обновление статуса заказа",
+        "details": {
+            "order_id": "ORD-2023-456",
+            "from_status": "processing",
+            "to_status": "shipped"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:10:30Z",
+        "level": "WARNING",
+        "message": "Неоптимальный запрос",
+        "details": {
+            "query": "SELECT * FROM orders WHERE status = ?",
+            "execution_plan": "FULL SCAN",
+            "suggestion": "Add index on status field"
+        }
+    },
+    {
+        "timestamp": 1634570000,
+        "level": "DEBUG",
+        "message": "Состояние пула соединений",
+        "details": {
+            "active": 4,
+            "idle": 6,
+            "max": 10
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:15:45Z",
+        "level": "INFO",
+        "message": "Удаленный вызов API",
+        "details": {
+            "endpoint": "https://api.payment.com/v1/charge",
+            "duration": "0.78s",
+            "status": 200
+        }
+    },
+    {
+        "timestamp": 1634570100,
+        "level": "ERROR",
+        "message": "Ошибка парсинга XML",
+        "details": {
+            "file": "feed.xml",
+            "line": 42,
+            "error": "Unclosed tag"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:20:20Z",
+        "level": "INFO",
+        "message": "Задача добавлена в очередь",
+        "details": {
+            "task_type": "image_processing",
+            "queue_position": 8
+        }
+    },
+    {
+        "timestamp": 1634570200,
+        "level": "WARNING",
+        "message": "Несоответствие версий",
+        "details": {
+            "client_version": "2.1.0",
+            "min_supported": "2.0.0",
+            "max_supported": "2.0.5"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:25:35Z",
+        "level": "DEBUG",
+        "message": "Проверка аутентификации",
+        "details": {
+            "user_id": 12345,
+            "method": "jwt",
+            "success": true
+        }
+    },
+    {
+        "timestamp": 1634570300,
+        "level": "INFO",
+        "message": "Экспорт данных завершен",
+        "details": {
+            "format": "CSV",
+            "records_exported": 356,
+            "destination": "/exports/report_20231018.csv"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:30:50Z",
+        "level": "ERROR",
+        "message": "Ошибка загрузки модуля",
+        "details": {
+            "module": "image_processor",
+            "error": "Dependency missing: libpng"
+        }
+    },
+    {
+        "timestamp": 1634570400,
+        "level": "INFO",
+        "message": "Создана резервная копия базы данных",
+        "details": {
+            "database": "users",
+            "size": "2.3GB",
+            "location": "/backups/db/users_20231018.sql"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:35:15Z",
+        "level": "WARNING",
+        "message": "Неиспользуемый параметр",
+        "details": {
+            "config_key": "legacy_feature_flag",
+            "message": "This setting will be removed in v2.0"
+        }
+    },
+    {
+        "timestamp": 1634570500,
+        "level": "DEBUG",
+        "message": "HTTP-заголовки запроса",
+        "details": {
+            "method": "GET",
+            "path": "/api/products",
+            "headers": {
+                "User-Agent": "Mozilla/5.0",
+                "Accept": "application/json"
+            }
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:40:30Z",
+        "level": "INFO",
+        "message": "Пользователь обновил профиль",
+        "details": {
+            "user_id": 12345,
+            "updated_fields": ["avatar", "phone"]
+        }
+    },
+    {
+        "timestamp": 1634570600,
+        "level": "ERROR",
+        "message": "Ошибка целостности данных",
+        "details": {
+            "table": "orders",
+            "constraint": "fk_user_id",
+            "error": "Foreign key violation"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:45:45Z",
+        "level": "INFO",
+        "message": "Запущена миграция базы данных",
+        "details": {
+            "migration": "202310181200_add_indexes",
+            "batch": 15
+        }
+    },
+    {
+        "timestamp": 1634570700,
+        "level": "WARNING",
+        "message": "Неудачная попытка входа",
+        "details": {
+            "username": "admin",
+            "ip": "192.168.1.15",
+            "reason": "Invalid password"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:50:10Z",
+        "level": "DEBUG",
+        "message": "Состояние кэша",
+        "details": {
+            "cache_hits": 1245,
+            "cache_misses": 78,
+            "hit_rate": "94.1%"
+        }
+    },
+    {
+        "timestamp": 1634570800,
+        "level": "INFO",
+        "message": "Отправлено push-уведомление",
+        "details": {
+            "device_id": "ios_abcd1234",
+            "notification_id": "ntf_202310181650"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T16:55:25Z",
+        "level": "ERROR",
+        "message": "Ошибка загрузки файла",
+        "details": {
+            "filename": "import.csv",
+            "error": "Invalid UTF-8 sequence"
+        }
+    },
+    {
+        "timestamp": 1634570900,
+        "level": "INFO",
+        "message": "Обновлены метрики",
+        "details": {
+            "metrics_updated": 12,
+            "storage": "prometheus"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:00:40Z",
+        "level": "WARNING",
+        "message": "Неожиданный код ответа",
+        "details": {
+            "endpoint": "/api/health",
+            "expected_status": 200,
+            "actual_status": 503
+        }
+    },
+    {
+        "timestamp": 1634571000,
+        "level": "DEBUG",
+        "message": "Параметры запроса",
+        "details": {
+            "controller": "ProductsController",
+            "action": "index",
+            "params": {
+                "category": "electronics",
+                "page": "2"
+            }
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:05:15Z",
+        "level": "INFO",
+        "message": "Удален неиспользуемый ресурс",
+        "details": {
+            "type": "temporary_files",
+            "count": 23,
+            "space_reclaimed": "450MB"
+        }
+    },
+    {
+        "timestamp": 1634571100,
+        "level": "ERROR",
+        "message": "Ошибка сериализации",
+        "details": {
+            "object_type": "UserProfile",
+            "error": "Circular reference detected"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:10:30Z",
+        "level": "INFO",
+        "message": "Завершена обработка очереди",
+        "details": {
+            "queue": "image_processing",
+            "jobs_processed": 15,
+            "duration": "3m 45s"
+        }
+    },
+    {
+        "timestamp": 1634571200,
+        "level": "WARNING",
+        "message": "Устаревший формат данных",
+        "details": {
+            "field": "birth_date",
+            "format": "DD/MM/YYYY",
+            "expected": "YYYY-MM-DD"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:15:45Z",
+        "level": "DEBUG",
+        "message": "Проверка зависимостей",
+        "details": {
+            "dependencies": 42,
+            "vulnerabilities": 0
+        }
+    },
+    {
+        "timestamp": 1634571300,
+        "level": "INFO",
+        "message": "Отправлен отчет администратору",
+        "details": {
+            "report_type": "daily_summary",
+            "recipient": "admin@example.com"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:20:10Z",
+        "level": "ERROR",
+        "message": "Ошибка при обработке вебхука",
+        "details": {
+            "provider": "Stripe",
+            "event_id": "evt_1J8ZQjKZvQl4Xy3g",
+            "error": "Invalid signature"
+        }
+    },
+    {
+        "timestamp": 1634571400,
+        "level": "INFO",
+        "message": "Обновлены настройки системы",
+        "details": {
+            "updated_by": "admin",
+            "changes": [
+                "logging.level -> DEBUG",
+                "cache.ttl -> 3600"
+            ]
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:25:35Z",
+        "level": "WARNING",
+        "message": "Дублирующийся запрос",
+        "details": {
+            "request_id": "req_abc123",
+            "path": "/api/submit",
+            "interval": "2.3s"
+        }
+    },
+    {
+        "timestamp": 1634571500,
+        "level": "DEBUG",
+        "message": "Состояние воркеров",
+        "details": {
+            "total_workers": 4,
+            "busy": 2,
+            "idle": 2
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:30:50Z",
+        "level": "INFO",
+        "message": "Импорт данных завершен",
+        "details": {
+            "source": "external_api",
+            "records_imported": 78,
+            "skipped": 3
+        }
+    },
+    {
+        "timestamp": 1634571600,
+        "level": "ERROR",
+        "message": "Ошибка при сохранении файла",
+        "details": {
+            "filename": "report.pdf",
+            "error": "Disk quota exceeded"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:35:15Z",
+        "level": "INFO",
+        "message": "Запущен периодический процесс",
+        "details": {
+            "task": "cleanup_expired_sessions",
+            "interval": "daily"
+        }
+    },
+    {
+        "timestamp": 1634571700,
+        "level": "WARNING",
+        "message": "Неполные данные",
+        "details": {
+            "entity": "Order",
+            "id": 45678,
+            "missing_fields": ["shipping_address"]
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:40:30Z",
+        "level": "DEBUG",
+        "message": "Проверка ACL",
+        "details": {
+            "user": "editor",
+            "resource": "article:123",
+            "permission": "edit",
+            "granted": true
+        }
+    },
+    {
+        "timestamp": 1634571800,
+        "level": "INFO",
+        "message": "Обновлен статус платежа",
+        "details": {
+            "payment_id": "pay_789",
+            "new_status": "completed"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:45:45Z",
+        "level": "ERROR",
+        "message": "Ошибка при рендеринге шаблона",
+        "details": {
+            "template": "email/welcome.html",
+            "error": "Undefined variable: user_name"
+        }
+    },
+    {
+        "timestamp": 1634571900,
+        "level": "INFO",
+        "message": "Создан новый документ",
+        "details": {
+            "type": "contract",
+            "document_id": "doc_20231018_45",
+            "author": "user_123"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:50:10Z",
+        "level": "WARNING",
+        "message": "Высокая загрузка CPU",
+        "details": {
+            "cpu_usage": "92%",
+            "process": "image_processor"
+        }
+    },
+    {
+        "timestamp": 1634572000,
+        "level": "DEBUG",
+        "message": "Запрос к базе данных",
+        "details": {
+            "query": "UPDATE users SET last_login = ? WHERE id = ?",
+            "parameters": ["2023-10-18 17:50:00", 12345],
+            "rows_affected": 1
+        }
+    },
+    {
+        "timestamp": "2023-10-18T17:55:25Z",
+        "level": "INFO",
+        "message": "Удаленный сервис доступен",
+        "details": {
+            "service": "payment_gateway",
+            "response_time": "0.12s"
+        }
+    },
+    {
+        "timestamp": 1634572100,
+        "level": "ERROR",
+        "message": "Ошибка при загрузке плагина",
+        "details": {
+            "plugin": "image_optimizer",
+            "error": "Version mismatch"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:00:40Z",
+        "level": "INFO",
+        "message": "Завершена обработка пакета",
+        "details": {
+            "batch_id": "batch_20231018_3",
+            "items_processed": 250
+        }
+    },
+    {
+        "timestamp": 1634572200,
+        "level": "WARNING",
+        "message": "Несоответствие контрольной суммы",
+        "details": {
+            "file": "data_import.zip",
+            "expected_checksum": "a1b2c3d4",
+            "actual_checksum": "a1b2c3d5"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:05:15Z",
+        "level": "DEBUG",
+        "message": "Проверка конфигурации",
+        "details": {
+            "config_files": ["app.yml", "database.yml"],
+            "status": "valid"
+        }
+    },
+    {
+        "timestamp": 1634572300,
+        "level": "INFO",
+        "message": "Отправлен запрос на подтверждение",
+        "details": {
+            "type": "email_verification",
+            "user_id": 78901,
+            "method": "email"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:10:30Z",
+        "level": "ERROR",
+        "message": "Ошибка при обработке изображения",
+        "details": {
+            "operation": "resize",
+            "error": "Invalid image dimensions"
+        }
+    },
+    {
+        "timestamp": 1634572400,
+        "level": "INFO",
+        "message": "Обновлены индексы поиска",
+        "details": {
+            "index": "products",
+            "documents_indexed": 1245
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:15:45Z",
+        "level": "WARNING",
+        "message": "Неиспользуемый код",
+        "details": {
+            "file": "legacy/old_service.rb",
+            "lines": "45-78"
+        }
+    },
+    {
+        "timestamp": 1634572500,
+        "level": "DEBUG",
+        "message": "Проверка соединения с базой данных",
+        "details": {
+            "database": "primary",
+            "status": "ok",
+            "latency": "8ms"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:20:10Z",
+        "level": "INFO",
+        "message": "Завершена синхронизация с внешним сервисом",
+        "details": {
+            "service": "crm",
+            "duration": "2m 15s"
+        }
+    },
+    {
+        "timestamp": 1634572600,
+        "level": "ERROR",
+        "message": "Ошибка при выполнении миграции",
+        "details": {
+            "migration": "202310151200_add_new_column",
+            "error": "Column already exists"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:25:35Z",
+        "level": "INFO",
+        "message": "Создана новая роль",
+        "details": {
+            "role_name": "content_moderator",
+            "permissions": ["edit", "delete", "approve"]
+        }
+    },
+    {
+        "timestamp": 1634572700,
+        "level": "WARNING",
+        "message": "Неоптимальные настройки",
+        "details": {
+            "setting": "query_cache_size",
+            "current_value": "10MB",
+            "recommended": "50MB"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:30:50Z",
+        "level": "DEBUG",
+        "message": "Проверка состояния сервисов",
+        "details": {
+            "services": ["redis", "elasticsearch", "sidekiq"],
+            "all_healthy": true
+        }
+    },
+    {
+        "timestamp": 1634572800,
+        "level": "INFO",
+        "message": "Завершено тестирование",
+        "details": {
+            "suite": "integration",
+            "tests": 124,
+            "passed": 123,
+            "failed": 1
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:35:15Z",
+        "level": "ERROR",
+        "message": "Ошибка при загрузке конфигурации",
+        "details": {
+            "file": "config/settings.yml",
+            "error": "Syntax error on line 23"
+        }
+    },
+    {
+        "timestamp": 1634572900,
+        "level": "INFO",
+        "message": "Удалены устаревшие записи",
+        "details": {
+            "table": "sessions",
+            "records_deleted": 342,
+            "criteria": "last_activity < '2023-09-18'"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:40:30Z",
+        "level": "WARNING",
+        "message": "Нестандартный порт",
+        "details": {
+            "service": "ftp",
+            "port": 2121,
+            "standard_port": 21
+        }
+    },
+    {
+        "timestamp": 1634573000,
+        "level": "DEBUG",
+        "message": "Проверка токена доступа",
+        "details": {
+            "token_type": "bearer",
+            "scope": "read write",
+            "expires_in": "1h"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:45:45Z",
+        "level": "INFO",
+        "message": "Обновлен статус заказа",
+        "details": {
+            "order_id": "ORD-2023-789",
+            "new_status": "delivered"
+        }
+    },
+    {
+        "timestamp": 1634573100,
+        "level": "ERROR",
+        "message": "Ошибка при обработке CSV",
+        "details": {
+            "file": "import_20231018.csv",
+            "line": 45,
+            "error": "Missing required field: email"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:50:10Z",
+        "level": "INFO",
+        "message": "Завершена обработка изображений",
+        "details": {
+            "count": 15,
+            "total_size": "24.5MB"
+        }
+    },
+    {
+        "timestamp": 1634573200,
+        "level": "WARNING",
+        "message": "Недостаточно места на диске",
+        "details": {
+            "path": "/var/storage",
+            "free_space": "5.2GB",
+            "threshold": "10GB"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T18:55:25Z",
+        "level": "DEBUG",
+        "message": "Проверка версий",
+        "details": {
+            "component": "frontend",
+            "current_version": "1.4.2",
+            "latest_version": "1.4.2"
+        }
+    },
+    {
+        "timestamp": 1634573300,
+        "level": "INFO",
+        "message": "Отправлен отчет об ошибках",
+        "details": {
+            "errors_reported": 3,
+            "destination": "bugtracker"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T19:00:40Z",
+        "level": "ERROR",
+        "message": "Ошибка при обновлении записи",
+        "details": {
+            "table": "products",
+            "id": 123,
+            "error": "Duplicate entry for SKU"
+        }
+    },
+    {
+        "timestamp": 1634573400,
+        "level": "INFO",
+        "message": "Завершена индексация",
+        "details": {
+            "index": "products_search",
+            "duration": "45s"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T19:05:15Z",
+        "level": "WARNING",
+        "message": "Необычный трафик",
+        "details": {
+            "ip": "192.168.1.200",
+            "requests": 150,
+            "interval": "1m"
+        }
+    },
+    {
+        "timestamp": 1634573500,
+        "level": "DEBUG",
+        "message": "Проверка сессии",
+        "details": {
+            "session_id": "sess_abc123",
+            "user_id": 12345,
+            "expires_at": "2023-10-19T19:00:00Z"
+        }
+    },
+    {
+        "timestamp": "2023-10-18T19:10:30Z",
+        "level": "INFO",
+        "message": "Создана резервная копия",
+        "details": {
+            "backup_id": "backup_20231018",
+            "size": "3.7GB"
+        }
     }
 ]
