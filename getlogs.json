@@ -22,5 +22,11 @@
         "level": "ERROR",
         "message": "Ошибка подключения к базе данных",
         "details": "Connection timeout after 10 seconds"
+    },
+    {
+        "timestamp": 1634567999,
+        "level": "DEBUG",
+        "message": "Загружен .env файл",
+        "details": "Has been get (code 91)"
     }
 ]
