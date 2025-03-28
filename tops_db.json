@@ -1,18 +1,86 @@
 {
+    "users": {
+        "Player1": {
+            "kills": 245,
+            "balance": 5000000,
+            "hours_played": 356,
+            "clan": "STALKERS",
+            "level": 45,
+            "last_online": "2023-10-15 14:30:00",
+            "last_used": {
+                "month": {
+                    "date": "2023-10-01",
+                    "kills": 45,
+                    "balance": 500000,
+                    "hours_played": 35
+                },
+                "week": {
+                    "date": "2023-10-09",
+                    "kills": 12,
+                    "balance": 150000,
+                    "hours_played": 10
+                }
+            }
+        },
+        "Player2": {
+            "kills": 198,
+            "balance": 3500000,
+            "hours_played": 298,
+            "clan": "BANDITS",
+            "level": 42,
+            "last_online": "2023-10-14 18:45:00",
+            "last_used": {
+                "month": {
+                    "date": "2023-10-01",
+                    "kills": 38,
+                    "balance": 350000,
+                    "hours_played": 29
+                },
+                "week": {
+                    "date": "2023-10-09",
+                    "kills": 10,
+                    "balance": 120000,
+                    "hours_played": 8
+                }
+            }
+        },
+        "Player3": {
+            "kills": 176,
+            "balance": 2000000,
+            "hours_played": 245,
+            "clan": "DUTY",
+            "level": 38,
+            "last_online": "2023-10-13 22:15:00",
+            "last_used": {
+                "month": {
+                    "date": "2023-10-01",
+                    "kills": 32,
+                    "balance": 200000,
+                    "hours_played": 24
+                },
+                "week": {
+                    "date": "2023-10-09",
+                    "kills": 8,
+                    "balance": 80000,
+                    "hours_played": 6
+                }
+            }
+        }
+    },
     "TopDicks": [
         {"name": "Player1", "value": 245},
         {"name": "Player2", "value": 198},
         {"name": "Player3", "value": 176}
     ],
     "TopBalance": [
-        {"name": "RichPlayer1", "value": 5000000},
-        {"name": "RichPlayer2", "value": 3500000},
-        {"name": "RichPlayer3", "value": 2000000}
+        {"name": "Player1", "value": 5000000},
+        {"name": "Player2", "value": 3500000},
+        {"name": "Player3", "value": 2000000}
     ],
     "TopActivity": [
-        {"name": "ActivePlayer1", "value": 356},
-        {"name": "ActivePlayer2", "value": 298},
-        {"name": "ActivePlayer3", "value": 245}
+        {"name": "Player1", "value": 356},
+        {"name": "Player2", "value": 298},
+        {"name": "Player3", "value": 245}
     ],
     "last_updated": "2023-10-15T14:30:00Z"
 }
