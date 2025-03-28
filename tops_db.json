@@ -1,0 +1,18 @@
+{
+    "TopDicks": [
+        {"name": "Player1", "value": 245},
+        {"name": "Player2", "value": 198},
+        {"name": "Player3", "value": 176}
+    ],
+    "TopBalance": [
+        {"name": "RichPlayer1", "value": 5000000},
+        {"name": "RichPlayer2", "value": 3500000},
+        {"name": "RichPlayer3", "value": 2000000}
+    ],
+    "TopActivity": [
+        {"name": "ActivePlayer1", "value": 356},
+        {"name": "ActivePlayer2", "value": 298},
+        {"name": "ActivePlayer3", "value": 245}
+    ],
+    "last_updated": "2023-10-15T14:30:00Z"
+}
