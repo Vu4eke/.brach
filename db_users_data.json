@@ -1,0 +1,84 @@
+{
+    "CLANS": [
+        {
+            "ID": 1,
+            "TAG": "LBRT",
+            "CLAN_ID": "8724d4b6-1bae-4f99-bd27-89daf4417335"
+        },
+        {
+            "ID": 2,
+            "TAG": "FALS",
+            "CLAN_ID": "c4735240-170e-41e5-a86a-463cf49c4c4f"
+        }
+    ],
+    "CLANS_MEMBERS_DB": [
+        {
+            "NICKNAME": "chaok",
+            "GUILD": "LBRT",
+            "DISCORD": "chaok",
+            "DISCORD_ID": "642771243212341248",
+            "RANK": "LEADER",
+            "EQUIPMENT": [
+                {
+                    "Armor": "",
+                    "Weapon": "",
+                    "Pistol": "",
+                    "Container": ""
+                }
+            ],
+            "CONTAINER_LIST": [
+                {
+                    "1": "",
+                    "2": "",
+                    "3": "",
+                    "4": "",
+                    "5": "",
+                    "6": ""
+                }
+            ],
+            "UUID": "",
+            "CODE": "",
+            "TOKEN": "",
+            "TELEGRAM_USERNAME": "",
+            "WARNS": "0"
+        },
+        {
+            "NICKNAME": "NumoBot",
+            "GUILD": "FALS",
+            "DISCORD": "rolren",
+            "DISCORD_ID": "1108610462645489694",
+            "RANK": "COLONEL",
+            "EQUIPMENT": [
+                {
+                    "Armor": "Центурион +14",
+                    "Weapon": "SA-58 CTC +15",
+                    "Pistol": "РШ-12 +15",
+                    "Container": "Берлога-6у"
+                }
+            ],
+            "CONTAINER_LIST": [
+                {
+                    "1": "Вихрь +15 (Легендарный)",
+                    "2": "Вихрь +15 (Легендарный)",
+                    "3": "Вихрь +15 (Легендарный)",
+                    "4": "Атом +15 (Уникальный)",
+                    "5": "Осколок +15 (Легендарный)",
+                    "6": "Спираль +15 (Легендарный)"
+                }
+            ],
+            "UUID": "",
+            "CODE": "",
+            "TOKEN": "",
+            "TELEGRAM_USERNAME": "",
+            "WARNS": "0"
+        }
+    ],
+    "DB_EXBO": [
+        {
+            "DISCORD": "rolren",
+            "DISCORD_ID": "1108610462645489694",
+            "CODE": "",
+            "TOKEN": ""
+        }
+    ]
+}
