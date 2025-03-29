@@ -5,6 +5,7 @@
     {
       "name": "Liberators",
       "tag": "LBRT",
+      "id": "",
       "fraction": "Рубеж",
       "level": 3,
       "block": "CROSS",
@@ -16,6 +17,7 @@
     {
       "name": "Fallen Apostles",
       "tag": "FALS",
+      "id": "",
       "fraction": "Завет",
       "level": 1,
       "block": "CROSS",
@@ -27,6 +29,7 @@
     {
       "name": "Academia",
       "tag": "ACDM",
+      "id": "",
       "fraction": "Рубеж",
       "level": 2,
       "block": "CROSS",
@@ -38,6 +41,7 @@
     {
       "name": "Alienated",
       "tag": "ALIE",
+      "id": "",
       "fraction": "Заря",
       "level": 3,
       "members": 39,
@@ -48,6 +52,7 @@
     {
       "name": "Перевёрнутые",
       "tag": "ЭПКЕ",
+      "id": "",
       "fraction": "Завет",
       "level": 2,
       "block": "CROSS",
@@ -59,6 +64,7 @@
     {
       "name": "Братство Сидра",
       "tag": "ВРАТ",
+      "id": "",
       "fraction": "Завет",
       "level": 3,
       "block": "CROSS",
