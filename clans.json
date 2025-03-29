@@ -21,7 +21,7 @@
       "fraction": "Завет",
       "level": 1,
       "block": "CROSS",
-      "members": 28,
+      "members": 17,
       "rating": 18700,
       "progress": 45,
       "status": "active"
@@ -33,7 +33,7 @@
       "fraction": "Рубеж",
       "level": 2,
       "block": "CROSS",
-      "members": 42,
+      "members": 30,
       "rating": 22500,
       "progress": 67,
       "status": "active"
@@ -44,7 +44,7 @@
       "id": "",
       "fraction": "Заря",
       "level": 3,
-      "members": 39,
+      "members": 35,
       "rating": 23100,
       "progress": 78,
       "status": "active"
@@ -56,7 +56,7 @@
       "fraction": "Завет",
       "level": 2,
       "block": "CROSS",
-      "members": 31,
+      "members": 30,
       "rating": 19800,
       "progress": 53,
       "status": "active"
@@ -68,7 +68,7 @@
       "fraction": "Завет",
       "level": 3,
       "block": "CROSS",
-      "members": 47,
+      "members": 33,
       "rating": 25600,
       "progress": 89,
       "status": "active"
