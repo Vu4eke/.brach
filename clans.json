@@ -1,0 +1,77 @@
+{
+  "last_update": "2023-11-15 18:45",
+  "coalition_name": "CROSS",
+  "clans": [
+    {
+      "name": "Liberators",
+      "tag": "LBRT",
+      "fraction": "Рубеж",
+      "level": 3,
+      "block": "CROSS",
+      "members": 35,
+      "rating": 24500,
+      "progress": 82,
+      "status": "active"
+    },
+    {
+      "name": "Fallen Apostles",
+      "tag": "FALS",
+      "fraction": "Завет",
+      "level": 1,
+      "block": "CROSS",
+      "members": 28,
+      "rating": 18700,
+      "progress": 45,
+      "status": "active"
+    },
+    {
+      "name": "Academia",
+      "tag": "ACDM",
+      "fraction": "Рубеж",
+      "level": 2,
+      "block": "CROSS",
+      "members": 42,
+      "rating": 22500,
+      "progress": 67,
+      "status": "active"
+    },
+    {
+      "name": "Alienated",
+      "tag": "ALIE",
+      "fraction": "Заря",
+      "level": 3,
+      "members": 39,
+      "rating": 23100,
+      "progress": 78,
+      "status": "active"
+    },
+    {
+      "name": "Перевёрнутые",
+      "tag": "ЭПКЕ",
+      "fraction": "Завет",
+      "level": 2,
+      "block": "CROSS",
+      "members": 31,
+      "rating": 19800,
+      "progress": 53,
+      "status": "active"
+    },
+    {
+      "name": "Братство Сидра",
+      "tag": "ВРАТ",
+      "fraction": "Завет",
+      "level": 3,
+      "block": "CROSS",
+      "members": 47,
+      "rating": 25600,
+      "progress": 89,
+      "status": "active"
+    }
+  ],
+  "stats": {
+    "total_clans": 6,
+    "total_members": 222,
+    "average_rating": 22383,
+    "dominant_fraction": "Завет"
+  }
+}
